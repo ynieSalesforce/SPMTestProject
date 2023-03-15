@@ -451,7 +451,7 @@
 				DEVELOPMENT_TEAM = NWHQHMD5MJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "x86_64 x86";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SPMTestProject/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -494,7 +494,7 @@
 				DEVELOPMENT_TEAM = NWHQHMD5MJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				EXCLUDED_ARCHS = arm64;
+				EXCLUDED_ARCHS = "x86_64 x86";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SPMTestProject/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
