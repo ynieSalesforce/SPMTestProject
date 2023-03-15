@@ -1,0 +1,41 @@
+PODS:
+  - Shimmer (1.0.2)
+  - SQLCipher (4.5.3):
+    - SQLCipher/standard (= 4.5.3)
+  - SQLCipher/common (4.5.3)
+  - SQLCipher/standard (4.5.3):
+    - SQLCipher/common
+  - SQLite.swift/SQLCipher (0.13.3):
+    - SQLCipher (>= 4.0.0)
+  - Updates (1.6.1)
+
+DEPENDENCIES:
+  - Shimmer (~> 1.0)
+  - SQLite.swift/SQLCipher (~> 0.13.3)
+  - Updates (from `https://github.com/rwbutler/Updates.git`, tag `1.6.1`)
+
+SPEC REPOS:
+  trunk:
+    - Shimmer
+    - SQLCipher
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  Updates:
+    :git: https://github.com/rwbutler/Updates.git
+    :tag: 1.6.1
+
+CHECKOUT OPTIONS:
+  Updates:
+    :git: https://github.com/rwbutler/Updates.git
+    :tag: 1.6.1
+
+SPEC CHECKSUMS:
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SQLCipher: 57fa9f863fa4a3ed9dd3c90ace52315db8c0fdca
+  SQLite.swift: 903bfa3bc9ab06345fdfbb578e34f47cfcf417da
+  Updates: dcd66208e10a3cd74453d5629ec3e3d9f782c6e1
+
+PODFILE CHECKSUM: 24549a727ecdb86cc26ecbfea963e78d062c8ef7
+
+COCOAPODS: 1.11.3
